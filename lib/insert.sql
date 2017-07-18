@@ -1,0 +1,69 @@
+/*CREATE TABLE pledges (
+  id INTEGER PRIMARY KEY,
+  user_ID INTEGER,
+  project_ID INTEGER,
+  amount NUMBER
+); */
+
+INSERT INTO projects VALUES(16546, "The Flying Spoon", "Food", 150000, '15-NOV-2017', '16-APR-2018');
+INSERT INTO projects VALUES(21212, "The Spinning Wheel", "Transport", 250000, '1-NOV-2017', '31-MAR-2018');
+INSERT INTO projects VALUES(24655, "The Growing Spud", "Food", 125000, '15-DEC-2017', '1-JUN-2018');
+INSERT INTO projects VALUES(16446, "The Smear", "Arts and Theater", 175000, '15-OCT-2017', '1-APR-2018');
+INSERT INTO projects VALUES(36856, "The Sad Pirate", "Arts and Theater", 250000, '15-AUG-2017', '1-MAY-2018');
+INSERT INTO projects VALUES(12245, "Likikoi Kepolo", "Food", 115000, '1-OCT-2017', '16-FEB-2018');
+INSERT INTO projects VALUES(86347, "Oruga", "Animals and Plants", 250000, '20-SEP-2017', '1-JAN-2018');
+INSERT INTO projects VALUES(11316, "Hoorsh", "Food", 350000, '15-DEC-2017', '1-APR-2018');
+INSERT INTO projects VALUES(44646, "Gobshite", "Arts and Theater", 400000, '15-NOV-2017', '1-JUL-2018');
+INSERT INTO projects VALUES(95131, "Unicyclone", "Transport", 200000, '25-SEP-2017', '31-MAR-2018');
+
+INSERT INTO users VALUES (465, "Mark Weller", 25);
+INSERT INTO users VALUES (321, "Mark Bosnian", 45);
+INSERT INTO users VALUES (493, "Mark Sman", 33);
+INSERT INTO users VALUES (442, "Mark Er", 28);
+INSERT INTO users VALUES (194, "Mark Cucaracho", 19);
+INSERT INTO users VALUES (163, "Mark Candle", 45);
+INSERT INTO users VALUES (953, "Mark DeBeers", 56);
+INSERT INTO users VALUES (593, "Mark Audio", 23);
+INSERT INTO users VALUES (443, "Mark Carkey", 29);
+INSERT INTO users VALUES (421, "Mark Camera", 25);
+INSERT INTO users VALUES (652, "Mark Phone", 26);
+INSERT INTO users VALUES (931, "Mark Glass", 25);
+INSERT INTO users VALUES (246, "Mark Globe", 36);
+INSERT INTO users VALUES (462, "Mark Pen", 29);
+INSERT INTO users VALUES (223, "Mark Lamp", 37);
+INSERT INTO users VALUES (495, "Mark Carposter", 41);
+INSERT INTO users VALUES (135, "Mark Medal", 37);
+INSERT INTO users VALUES (156, "Mark GoPro", 20);
+INSERT INTO users VALUES (935, "Mark Laptop", 18);
+INSERT INTO users VALUES (412, "Mark Cozmo", 46);
+
+INSERT INTO pledges VALUES (1, 465, 16546, 200);
+INSERT INTO pledges VALUES (2, 465, 16546, 150);
+INSERT INTO pledges VALUES (3, 321, 16546, 300);
+INSERT INTO pledges VALUES (4, 493, 21212, 100);
+INSERT INTO pledges VALUES (5, 493, 21212, 125);
+INSERT INTO pledges VALUES (6, 442, 21212, 50);
+INSERT INTO pledges VALUES (7, 194, 16446, 100);
+INSERT INTO pledges VALUES (8, 194, 16446, 25);
+INSERT INTO pledges VALUES (9, 194, 16446, 150);
+INSERT INTO pledges VALUES (10, 163, 36856, 250);
+INSERT INTO pledges VALUES (11, 953, 36856, 75);
+INSERT INTO pledges VALUES (12, 593, 36856, 100);
+INSERT INTO pledges VALUES (13, 443, 12245, 90);
+INSERT INTO pledges VALUES (14, 443, 12245, 210);
+INSERT INTO pledges VALUES (15, 421, 12245, 175);
+INSERT INTO pledges VALUES (16, 652, 86347, 115);
+INSERT INTO pledges VALUES (17, 931, 86347, 155);
+INSERT INTO pledges VALUES (18, 246, 86347, 145);
+INSERT INTO pledges VALUES (19, 246, 11316, 50);
+INSERT INTO pledges VALUES (20, 462, 11316, 65);
+INSERT INTO pledges VALUES (21, 223, 11316, 300);
+INSERT INTO pledges VALUES (22, 223, 44646, 250);
+INSERT INTO pledges VALUES (23, 495, 44646, 500);
+INSERT INTO pledges VALUES (24, 495, 44646, 175);
+INSERT INTO pledges VALUES (25, 135, 95131, 400);
+INSERT INTO pledges VALUES (26, 156, 95131, 140);
+INSERT INTO pledges VALUES (27, 935, 95131, 125);
+INSERT INTO pledges VALUES (28, 935, 24655, 230);
+INSERT INTO pledges VALUES (29, 412, 24655, 300);
+INSERT INTO pledges VALUES (30, 412, 24655, 75);
